@@ -1,0 +1,121 @@
+body {
+    background-color: #f4f4f4;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin:0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color:#f55e34;
+    color:#fff;
+    width: 100%;
+    padding: 10px;
+    box-shadow: grey, 10px;
+}
+
+ul {
+	margin: 0px;
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+
+
+    
+}
+
+ul li {
+	line-height: 40px;
+	text-align: center;
+    display: inline;
+}
+
+ul li a {
+	text-decoration: none;
+    color: #f4f4f4;
+    background-color: #333;
+    letter-spacing: 2px;
+    padding: 20px 20px;
+
+}
+ul li a:hover {
+    background-color: #f55e34;
+    transition: all 0.5s ease;
+}
+
+ul li ul li {
+	display: none;
+}
+ul li:hover ul li {
+	display: block;
+}
+
+
+#front{
+    background-image: url("Images/programmingback.jpeg");
+    background-color: #01000E;
+    background-repeat: no-repeat repeat;
+	min-height:300px;
+	margin-bottom:30px;
+    size: auto;
+    text-align: justify;
+}
+
+#front h1{
+    text-align: center;
+    color: white;
+    padding: 200px;
+    font-size: 38px;
+    margin-top: 0px;
+    text-shadow: 0px 0px 5px white;
+}
+
+#main {
+    text-align: left;
+    float: left;
+    width: 70%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background: #333;
+    color: #f4f4f4;
+    border: 10px solid #333;
+    box-sizing: border-box;
+}
+
+#sidebar img {
+    width: 100%;
+    size: auto;
+}
+
+.foottxt {
+    text-align: center;
+    padding-bottom: 10px;
+    padding: 5px;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: #333;
+    
+
+}
+
+.foottxt a { 
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+.foottxt a:hover {
+    text-decoration: underline;
+}
